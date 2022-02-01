@@ -19,7 +19,9 @@ public class CardDealer
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
         Card aceSpades = new Card("Spades",13); 
-        System.out.println(aceSpades);
+        System.out.println(aceSpades.getSuit());
+        
+        Card otherCard = new Card ("Hearts",2);
        
         
     }
